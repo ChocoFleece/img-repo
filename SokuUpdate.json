@@ -5,7 +5,9 @@
         "Version": "1.9.2.0",
         "FileName": "SokuLauncher.exe",
         "DownloadUrl": "https://github.com/0Miles/soku-launcher/releases/download/v1.9.2.0/SokuLauncher.zip",
-        "Introduce": "这是启动器程序"
+        "Introduce": "这是启动器程序",
+        "Hash": "",
+        "UselessDLL": []
     },
     {
         "Name": "Giuroll",
@@ -16,7 +18,9 @@
             "giuroll.ini"
         ],
         "DownloadUrl": "https://cdn.discordapp.com/attachments/1113775565778989096/1131313085093781654/giuroll_0_5_5.zip",
-        "Introduce": "最新的网络回滚插件-60帧版本-海外使用"
+        "Introduce": "最新的网络回滚插件-60帧版本-海外使用",
+        "Hash": "",
+        "UselessDLL": []
     },
     {
         "Name": "Giuroll-62F",
@@ -27,7 +31,9 @@
             "giuroll.ini"
         ],
         "DownloadUrl": "https://cdn.discordapp.com/attachments/404894624008634378/1132628062257811506/giuroll-62F_0_5_3.zip",
-        "Introduce": "最新的网络回滚插件-62帧版本-国内使用"
+        "Introduce": "最新的网络回滚插件-62帧版本-国内使用",
+        "Hash": "",
+        "UselessDLL": []
     },
     {
         "Name": "SokuLobbiesMod",
@@ -35,7 +41,9 @@
         "Version": "0.5.0.0",
         "FileName": "SokuLobbiesMod.dll",
         "DownloadUrl": "https://cdn.discordapp.com/attachments/404894624008634378/1128307883021451456/SokuLobbiesMod.zip",
-        "Introduce": "大厅插件，VS Network中显示的大厅"
+        "Introduce": "大厅插件，VS Network中显示的大厅",
+        "Hash": "",
+        "UselessDLL": []
     },
     {
         "Name": "Autopunch",
@@ -43,7 +51,9 @@
         "Version": "0.0.0.0",
         "FileName": "Autopunch.dll",
         "DownloadUrl": "https://cdn.discordapp.com/attachments/404894624008634378/1128312700619997214/Autopunch.zip",
-        "Introduce": "AP，若双方都使用AP并成功连接，则基本可以视为公网IP连接的延迟"
+        "Introduce": "AP，若双方都使用AP并成功连接，则基本可以视为公网IP连接的延迟",
+        "Hash": "",
+        "UselessDLL": []
     },
     {
         "Name": "SWRSokuRoll",
@@ -54,7 +64,9 @@
             "SWRSokuRoll.ini"
         ],
         "DownloadUrl": "https://cdn.discordapp.com/attachments/404894624008634378/1128314599612104894/SWRSokuRoll.zip",
-        "Introduce": "SWRSokuRoll"
+        "Introduce": "SWRSokuRoll",
+        "Hash": "",
+        "UselessDLL": []
     },
     {
         "Name": "InGameHostlist",
@@ -66,7 +78,9 @@
         ],
         "UpdateWorkingDir": "./InGameHostlist",
         "DownloadUrl": "https://github.com/SokuDev/InGameHostlist/releases/download/v1.3.3/InGameHostlist.zip",
-        "Introduce": "InGameHostlist"
+        "Introduce": "InGameHostlist",
+        "Hash": "",
+        "UselessDLL": []
     },
     {
         "Name": "SokuModLoader",
@@ -74,6 +88,8 @@
         "Version": "0.0.0.0",
         "FileName": "d3d9.dll",
         "DownloadUrl": "https://cdn.discordapp.com/attachments/404894624008634378/1129357956803219516/d3d9.zip",
-        "Introduce": "SokuModLoader"
+        "Introduce": "SokuModLoader",
+        "Hash": "",
+        "UselessDLL": []
     }
 ]
