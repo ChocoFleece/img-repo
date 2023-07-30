@@ -7,78 +7,72 @@
         "DownloadUrl": "https://github.com/0Miles/soku-launcher/releases/download/v1.9.2.0/SokuLauncher.zip",
         "Introduce": "这是启动器程序",
         "Hash": "",
-        "UselessDLL": [],
-        "OtherNames": []
+        "UselessDLL": []
     },
     {
         "Name": "Giuroll",
         "Desc": "### NEW IMPROVED ROLLBACK\n**PRE-RELEASE BUILD, VERSION 0.5.5**  \n**COMPATIBLE WITH VERSIONS SINCE 0.5.0**  \n**0.5.3: FIXED FRAME 1 FREEZE BUG (IF BOTH PLAYERS ARE USING THIS VERSION)**  \n**0.5.4: IMPROVED SOUND ROLLBACK**  \n**0.5.5: HOTFIX FOR MARISA 2C CAUSING A CRASH**  \nThis mod fixes any FPS issues related to Windows 10 (most users affected), online mode stuttering, and one-sided rollback.  \n  \n**It also allows you to rewind replays with the q keys.**  \nInstalled like any other SWRSToys mod.  \nIncompatible with Sokuroll (must be disabled).  \nReport any issues to [@Giufin](https://discordapp.com/users/278469240879841280).  \nCurrently the only known issue is sound being deleted at the end of the round.  \nAny other issues, especially freezes and sound related issues, other than the one above should be reported.  \n  \n**MOST MODS SEEM TO BE COMPATIBLE, EXCEPT DESYNC-PROTECTOR AND HOST-IN-BACKGROUND, BUT IN CASE OF CRASHES OR OTHER ISSUES DISABLE AS MANY MODS AS YOU CAN**  \nFor more **information**: [https://github.com/Giufinn/giuroll](https://github.com/Giufinn/giuroll)",
         "Version": "0.5.5.0",
-        "FileName": "giuroll.dll",
+        "FileName": ["giuroll.dll","giuroll-60F.dll"],
         "ConfigFiles": [
             "giuroll.ini"
         ],
         "DownloadUrl": "https://cdn.discordapp.com/attachments/1113775565778989096/1131313085093781654/giuroll_0_5_5.zip",
         "Introduce": "最新的网络回滚插件-60帧版本-海外使用",
         "Hash": "",
-        "UselessDLL": [],
-        "OtherNames": ["giuroll-60F.dll"]
+        "UselessDLL": []
     },
     {
         "Name": "Giuroll-62F",
         "Desc": "### NEW IMPROVED ROLLBACK\n**PRE-RELEASE BUILD, VERSION 0.5.5**  \n**COMPATIBLE WITH VERSIONS SINCE 0.5.0**  \n**0.5.3: FIXED FRAME 1 FREEZE BUG (IF BOTH PLAYERS ARE USING THIS VERSION)**  \nThis mod fixes any FPS issues related to Windows 10 (most users affected), online mode stuttering, and one-sided rollback.  \n  \n**It also allows you to rewind replays with the q keys.**  \nInstalled like any other SWRSToys mod.  \nIncompatible with Sokuroll (must be disabled).  \nReport any issues to [@Giufin](https://discordapp.com/users/278469240879841280).  \nCurrently the only known issue is sound being deleted at the end of the round.  \nAny other issues, especially freezes and sound related issues, other than the one above should be reported.  \n  \n**MOST MODS SEEM TO BE COMPATIBLE, EXCEPT DESYNC-PROTECTOR AND HOST-IN-BACKGROUND, BUT IN CASE OF CRASHES OR OTHER ISSUES DISABLE AS MANY MODS AS YOU CAN**  \nFor more **information**: [https://github.com/Giufinn/giuroll](https://github.com/Giufinn/giuroll)",
         "Version": "0.5.3.0",
-        "FileName": "giuroll-62F.dll",
+        "FileName": ["giuroll-62F.dll"],
         "ConfigFiles": [
             "giuroll.ini"
         ],
         "DownloadUrl": "https://cdn.discordapp.com/attachments/404894624008634378/1132628062257811506/giuroll-62F_0_5_3.zip",
         "Introduce": "最新的网络回滚插件-62帧版本-国内使用",
         "Hash": "",
-        "UselessDLL": [],
-        "OtherNames": []
+        "UselessDLL": []
     },
     {
         "Name": "SokuLobbiesMod",
         "Desc": "Multiplayer online lobby.",
         "Version": "0.5.0.0",
-        "FileName": "SokuLobbiesMod.dll",
+        "FileName": ["SokuLobbiesMod.dll"],
         "DownloadUrl": "https://cdn.discordapp.com/attachments/404894624008634378/1128307883021451456/SokuLobbiesMod.zip",
         "Introduce": "大厅插件，VS Network中显示的大厅",
         "Hash": "",
-        "UselessDLL": ["sfml-system-2.dll","sfml-network-2.dll"],
-        "OtherNames": []
+        "UselessDLL": ["sfml-system-2.dll","sfml-network-2.dll"]
     },
     {
         "Name": "Autopunch",
         "Desc": "This program lets you host & connect to friends to play peer-to-peer games without having to open or redirect any port. This does not add any latency to the connection compared to redirecting ports manually.",
         "Version": "0.0.0.0",
-        "FileName": "Autopunch.dll",
+        "FileName": ["Autopunch.dll"],
         "DownloadUrl": "https://cdn.discordapp.com/attachments/404894624008634378/1128312700619997214/Autopunch.zip",
         "Introduce": "AP，若双方都使用AP并成功连接，则基本可以视为公网IP连接的延迟",
         "Hash": "",
-        "UselessDLL": [],
-        "OtherNames": []
+        "UselessDLL": []
     },
     {
         "Name": "SWRSokuRoll",
         "Desc": "The Roll Mod used in SokuReplay ranked battles.",
         "Version": "0.0.0.0",
-        "FileName": "SWRSokuRoll.dll",
+        "FileName": ["SWRSokuRoll.dll"],
         "ConfigFIles": [
             "SWRSokuRoll.ini"
         ],
         "DownloadUrl": "https://cdn.discordapp.com/attachments/404894624008634378/1128314599612104894/SWRSokuRoll.zip",
         "Introduce": "SWRSokuRoll",
         "Hash": "",
-        "UselessDLL": [],
-        "OtherNames": []
+        "UselessDLL": []
     },
     {
         "Name": "InGameHostlist",
         "Desc": "A module that adds hostlist bot integration directly into Hisoutensoku.",
         "Version": "0.0.0.0",
-        "FileName": "InGameHostlist.dll",
+        "FileName": ["InGameHostlist.dll"],
         "ConfigFIles": [
             "InGameHostlist.ini"
         ],
@@ -86,18 +80,16 @@
         "DownloadUrl": "https://github.com/SokuDev/InGameHostlist/releases/download/v1.3.3/InGameHostlist.zip",
         "Introduce": "InGameHostlist",
         "Hash": "",
-        "UselessDLL": [],
-        "OtherNames": []
+        "UselessDLL": []
     },
     {
         "Name": "SokuModLoader",
         "Desc": "Necessary tool for injecting mods into games.",
         "Version": "0.0.0.0",
-        "FileName": "d3d9.dll",
+        "FileName": ["d3d9.dll"],
         "DownloadUrl": "https://cdn.discordapp.com/attachments/404894624008634378/1129357956803219516/d3d9.zip",
         "Introduce": "SokuModLoader",
         "Hash": "",
-        "UselessDLL": [],
-        "OtherNames": []
+        "UselessDLL": []
     }
 ]
