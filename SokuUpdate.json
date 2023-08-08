@@ -1,88 +1,90 @@
 [
     {
-        "Name": "Giuroll",
-        "Desc": "### NEW IMPROVED ROLLBACK\n**PRE-RELEASE BUILD, VERSION 0.5.5**  \n**COMPATIBLE WITH VERSIONS SINCE 0.5.0**  \n**0.5.3: FIXED FRAME 1 FREEZE BUG (IF BOTH PLAYERS ARE USING THIS VERSION)**  \n**0.5.4: IMPROVED SOUND ROLLBACK**  \n**0.5.5: HOTFIX FOR MARISA 2C CAUSING A CRASH**  \nThis mod fixes any FPS issues related to Windows 10 (most users affected), online mode stuttering, and one-sided rollback.  \n  \n**It also allows you to rewind replays with the q keys.**  \nInstalled like any other SWRSToys mod.  \nIncompatible with Sokuroll (must be disabled).  \nReport any issues to [@Giufin](https://discordapp.com/users/278469240879841280).  \nCurrently the only known issue is sound being deleted at the end of the round.  \nAny other issues, especially freezes and sound related issues, other than the one above should be reported.  \n  \n**MOST MODS SEEM TO BE COMPATIBLE, EXCEPT DESYNC-PROTECTOR AND HOST-IN-BACKGROUND, BUT IN CASE OF CRASHES OR OTHER ISSUES DISABLE AS MANY MODS AS YOU CAN**  \nFor more **information**: [https://github.com/Giufinn/giuroll](https://github.com/Giufinn/giuroll)",
-        "Version": "0.5.5.0",
-        "FileName": ["giuroll.dll","giuroll-60F.dll"],
-        "ConfigFiles": [
-            "giuroll.ini"
-        ],
-        "DownloadUrl": "https://cdn.discordapp.com/attachments/1113775565778989096/1131313085093781654/giuroll_0_5_5.zip",
-        "Introduce": "「海外使用」最新的网络回滚插件-60帧版本",
+        "Name": "Giuroll-60F",
+        "Desc": "[###giuroll 0.5.3（2023.7.19）\n1、请打开SWRSTouys.ini配置文件，ctrl f 搜索 DesyncProtector，找到并添加分号禁用，此插件与giuroll之间可能会冲突并发生不同步的情况【giuroll本身也已经修复了天气不同步的问题】\n2、可能进一步修复选完地图开局卡住/黑屏的情况，需要实测检验，到8月8日尚未收到俩人都是0.5.3还出问题的报告。\n如果 [俩人都使用0.5.3版] 后还有发生选完地图开局卡住/黑屏的情况，请通知我一声。\n原作者@Giufin-Discord](https://discordapp.com/users/278469240879841280). [giuroll-Github仓库](https://github.com/Giufinn/giuroll)",
+        "Version": "0.5.3.1",
+        "FileName": ["giuroll-60F.dll"],
+        "ConfigFiles":  ["giuroll.ini"],
+        "DownloadUrl": "https://gitee.com/sanhuizhuan/SokuMods/releases/download/v1/Giuroll_Copy.zip",
+        "Introduce": "「海外使用」回滚式网络代码插件-60F版本，改善联机体验",
         "Hash": "0f06ca006496c1e73f212432c91d6e61f57a627a59a0a1336142dd4de9233b81",
         "UselessDLL": []
     },
     {
         "Name": "Giuroll-62F",
-        "Desc": "### NEW IMPROVED ROLLBACK\n**PRE-RELEASE BUILD, VERSION 0.5.5**  \n**COMPATIBLE WITH VERSIONS SINCE 0.5.0**  \n**0.5.3: FIXED FRAME 1 FREEZE BUG (IF BOTH PLAYERS ARE USING THIS VERSION)**  \nThis mod fixes any FPS issues related to Windows 10 (most users affected), online mode stuttering, and one-sided rollback.  \n  \n**It also allows you to rewind replays with the q keys.**  \nInstalled like any other SWRSToys mod.  \nIncompatible with Sokuroll (must be disabled).  \nReport any issues to [@Giufin](https://discordapp.com/users/278469240879841280).  \nCurrently the only known issue is sound being deleted at the end of the round.  \nAny other issues, especially freezes and sound related issues, other than the one above should be reported.  \n  \n**MOST MODS SEEM TO BE COMPATIBLE, EXCEPT DESYNC-PROTECTOR AND HOST-IN-BACKGROUND, BUT IN CASE OF CRASHES OR OTHER ISSUES DISABLE AS MANY MODS AS YOU CAN**  \nFor more **information**: [https://github.com/Giufinn/giuroll](https://github.com/Giufinn/giuroll)",
-        "Version": "0.5.3.0",
+        "Desc": "[###giuroll 0.5.3（2023.7.19）\n1、请打开SWRSTouys.ini配置文件，ctrl f 搜索 DesyncProtector，找到并添加分号禁用，此插件与giuroll之间可能会冲突并发生不同步的情况【giuroll本身也已经修复了天气不同步的问题】\n2、可能进一步修复选完地图开局卡住/黑屏的情况，需要实测检验，到8月8日尚未收到俩人都是0.5.3还出问题的报告。\n如果 [俩人都使用0.5.3版] 后还有发生选完地图开局卡住/黑屏的情况，请通知我一声。\n原作者@Giufin-Discord](https://discordapp.com/users/278469240879841280). [giuroll-Github仓库](https://github.com/Giufinn/giuroll)",
+        "Version": "0.5.3.1",
         "FileName": ["giuroll-62F.dll"],
-        "ConfigFiles": [
-            "giuroll.ini"
-        ],
-        "DownloadUrl": "https://cdn.discordapp.com/attachments/404894624008634378/1132628062257811506/giuroll-62F_0_5_3.zip",
-        "Introduce": "「国内使用」最新的网络回滚插件-62帧版本",
+        "ConfigFiles": ["giuroll.ini"],
+        "DownloadUrl": "https://gitee.com/sanhuizhuan/SokuMods/releases/download/v1/Giuroll_Copy.zip",
+        "Introduce": "「国内使用」回滚式网络代码插件-62F版本，改善联机体验",
         "Hash": "cfe383c07d3c2fb46f986e8d0fba2dde9ef6b7d2011c5ec7b19314f5b948825d",
         "UselessDLL": []
     },
     {
         "Name": "SokuLobbiesMod",
-        "Desc": "Multiplayer online lobby.",
+        "Desc": "【更新公告】",
         "Version": "0.5.0.0",
         "FileName": ["SokuLobbiesMod.dll"],
-        "ConfigFiles": [],
+        "ConfigFiles":  ["SokuLobbiesMod.ini"],
         "DownloadUrl": "https://cdn.discordapp.com/attachments/404894624008634378/1128307883021451456/SokuLobbiesMod.zip",
-        "Introduce": "大厅插件，VS Network中显示的大厅",
+        "Introduce": "新版的联机大厅mod，按 S 切换原版联机界面，请右键查看 SokuLobbiesMod.ini 配置文件",
         "Hash": "",
         "UselessDLL": ["sfml-system-2.dll","sfml-network-2.dll"]
     },
     {
-        "Name": "Autopunch",
-        "Desc": "This program lets you host & connect to friends to play peer-to-peer games without having to open or redirect any port. This does not add any latency to the connection compared to redirecting ports manually.",
-        "Version": "0.0.0.0",
-        "FileName": ["Autopunch.dll"],
-        "ConfigFiles": [],
-        "DownloadUrl": "https://cdn.discordapp.com/attachments/404894624008634378/1128312700619997214/Autopunch.zip",
-        "Introduce": "AP，若双方都使用AP并成功连接，则基本可以视为公网IP连接的延迟",
-        "Hash": "247c3c5244cee358ced63d74e40178b3114f636ee9ffe82c6df4bc3470030759",
-        "UselessDLL": []
-    },
-    {
-        "Name": "SWRSokuRoll",
-        "Desc": "The Roll Mod used in SokuReplay ranked battles.",
-        "Version": "0.0.0.0",
-        "FileName": ["SWRSokuRoll.dll"],
-        "ConfigFIles": [
-            "SWRSokuRoll.ini"
-        ],
-        "DownloadUrl": "https://cdn.discordapp.com/attachments/404894624008634378/1128314599612104894/SWRSokuRoll.zip",
-        "Introduce": "SWRSokuRoll",
+        "Name": "MemoryPatch",
+        "Desc": "[7-2]新增了一些脚本。",
+        "Version": "1.1.0.0",
+        "FileName": ["MemoryPatch.dll"],
+        "ConfigFiles":  ["MemoryPatch.ini"],
+        "DownloadUrl": "https://gitee.com/sanhuizhuan/SokuMods/releases/download/v1/%5B7-2%5DMemoryPatch.zip",
+        "Introduce": "对游戏进行一些修改，默认功能有支持游戏多开等，以及有一些实用功能需手动开，如屏蔽天气和屏蔽刮风下雨特效等，请右键查看 MemoryPatch.ini 配置文件",
         "Hash": "",
         "UselessDLL": []
     },
     {
-        "Name": "InGameHostlist",
-        "Desc": "A module that adds hostlist bot integration directly into Hisoutensoku.",
-        "Version": "0.0.0.0",
-        "FileName": ["InGameHostlist.dll"],
-        "ConfigFIles": [
-            "InGameHostlist.ini"
-        ],
-        "UpdateWorkingDir": "./InGameHostlist",
-        "DownloadUrl": "https://github.com/SokuDev/InGameHostlist/releases/download/v1.3.3/InGameHostlist.zip",
-        "Introduce": "InGameHostlist",
+        "Name": "th123intl",
+        "Desc": "[7-31]修改了一些中文翻译。",
+        "Version": "1.1.0.0",
+        "FileName": ["th123intl.dll"],
+        "ConfigFiles":  ["th123intl.ini"],
+        "DownloadUrl": "https://gitee.com/sanhuizhuan/SokuMods/releases/download/v1/%5B7-31%5Dth123intl.zip",
+        "Introduce": "语言插件，可修改中文、日文、英文版本",
+        "Hash": "5f01856dd7518d447ccfa4b51a69147958709f27496cf71f35ccbaec90e4ef94",
+        "UselessDLL": []
+    },
+    {
+        "Name": "HoldEscOnline",
+        "Desc": "[新插件]将网战模式下按下 Esc 键中断对局改为按住 Esc 键两秒的防误触小插件，只对自己有效（不能防止对面误触，除非对面也装mod），可以单方面使用此mod。",
+        "Version": "1.2.0.0",
+        "FileName": ["HoldEscOnline.dll"],
+        "ConfigFiles":  [],
+        "DownloadUrl": "https://gitee.com/sanhuizhuan/SokuMods/releases/download/v1/HoldEscOnline-v1.2.zip",
+        "Introduce": "将网战模式下按下 Esc 键中断对局改为按住 Esc 键两秒的防误触小插件",
+        "Hash": "db435b1974e3f7ab722e57e429e6187b53fc62802e49cf2a746f23c1e383752f",
+        "UselessDLL": []
+    },
+    {
+        "Name": "InfiniteDecks",
+        "Desc": "[8-4]1、修复观战bug：当开启老版本无限卡组插件的人成为第一个观战者时，会导致后续观战的人得到错误的2P卡组而无法正常观战 2、 修复选人界面可能会发生的卡住问题（选卡界面不同步）。如果你选择了位置为5的倍数的卡组，他会显示一个假的“秘”卡组动画，四周会有喜怒哀乐，会要求你再按一次确认键，这个动画没有实际功能意义，你不管怎么选，还是你原来自己编辑的那个卡组，不会真的变成随机一份卡组。如果你想要使用随机一套卡组的功能，按A即可。",
+        "Version": "1.0.3.0",
+        "FileName": ["InfiniteDecks.dll"],
+        "ConfigFiles":  [],
+        "DownloadUrl": "https://gitee.com/sanhuizhuan/SokuMods/releases/download/v1/%5B8-4%5DInfiniteDecks-1.0.3.zip",
+        "Introduce": "使用前请备份机签文件。可以将“喜怒哀乐”四套卡组改成“无限”套，且可以命名卡组和选人时预览。",
         "Hash": "",
         "UselessDLL": []
     },
     {
-        "Name": "SokuModLoader",
-        "Desc": "Necessary tool for injecting mods into games.",
-        "Version": "0.0.0.0",
-        "FileName": ["d3d9.dll"],
-        "ConfigFiles": [],
-        "DownloadUrl": "https://cdn.discordapp.com/attachments/404894624008634378/1129357956803219516/d3d9.zip",
-        "Introduce": "SokuModLoader",
-        "Hash": "",
+        "Name": "shady-loader",
+        "Desc": "[8-3]1、需要配合7-31新的 th123intl 翻译包使用，可以在F2菜单内修改中文名 pack 资源包而不会崩溃了。2、可以连接至服务器上查看和下载资源包。",
+        "Version": "2.5.0.0",
+        "FileName": ["shady-loader.dll"],
+        "ConfigFiles":  ["shady-loader.ini"],
+        "DownloadUrl": "https://gitee.com/sanhuizhuan/SokuMods/releases/download/v1/%5B8-3%5Dshady-loader-v2.5.zip",
+        "Introduce": "游戏主菜单界面按 F2 可以打开菜单。",
+        "Hash": "ea72e3aa55c9f083e2b8e6bfa46fc97cffb84e6be03bd1de121cb95e5b93dee0",
         "UselessDLL": []
     }
 ]
